@@ -6,10 +6,6 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return "<h1>Hello, Bukola's Cloud App!</h1><p>This is running on Flask and this is running live on Azure!</p>"
-    
-name= input("enter your name:")
-app-name= input("enter the name of the app:")
-
 
 if __name__ == '__main__':
     app.run(debug=True)
