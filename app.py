@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "<h1>Hello, This is Bukola's first Cloud App!...Yaaay!</h1><p>This is running on Flask and Azure!</p>"
+    return "<h1>Hello, Bukola's Cloud App!</h1><p>This is running on Flask and Azure!</p>"
 
 if __name__ == '__main__':
     app.run(debug=True)
